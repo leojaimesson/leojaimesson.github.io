@@ -1,5 +1,5 @@
-import image from "../../assets/perfil.jpeg";
-import "./presentation.css";
+import image from "../../assets/avatar.png";
+import "./Presentation.css";
 
 export const Presentation = () => {
   return (

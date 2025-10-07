@@ -9,6 +9,7 @@
   max-width: 200px;
   border-radius: 50%;
   border: 10px solid var(--color-border);
+  background-color: var(--color-bg-alt);
 }
 
 .presentation-text {

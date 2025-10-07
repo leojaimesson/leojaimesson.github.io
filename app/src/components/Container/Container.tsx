@@ -1,4 +1,4 @@
-import "./container.css";
+import "./Container.css";
 
 type ContainerProps = {
   children: preact.ComponentChildren;

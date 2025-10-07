@@ -16,6 +16,24 @@
   --transition: 0.25s ease-in-out;
 }
 
+.dark {
+  --color-primary: #4fc3f7;
+  --color-secondary: #26c6da;
+  --color-accent: #ba68c8;
+  --color-text: #eaeaea;
+  --color-text-secondary: #9ca3af;
+  --color-bg: #1e1e1e;
+  --color-bg-alt: #252526;
+  --color-bg-code: #2d2d2d;
+  --color-border: #2f2f2f;
+  --color-success: #81c784;
+  --color-error: #ef5350;
+  --color-warning: #ffca28;
+  --color-info: #4fc3f7;
+  --shadow-card: 0 4px 10px rgba(0, 0, 0, 0.3);
+  --transition: 0.25s ease-in-out;
+}
+
 *,
 *::before,
 *::after {
@@ -24,12 +42,21 @@
   font-optical-sizing: auto;
 }
 
+html,
 body {
   margin: 0;
   padding: 0;
   background-color: var(--color-bg);
   color: var(--color-text);
   font-size: 18px;
+  height: 100%;
+}
+
+html,
+body,
+* {
+  transition: background-color var(--transition), color var(--transition),
+    border-color var(--transition);
 }
 
 img,
